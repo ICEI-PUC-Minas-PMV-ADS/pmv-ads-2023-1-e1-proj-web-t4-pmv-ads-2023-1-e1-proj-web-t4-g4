@@ -62,10 +62,11 @@ nav {
   opacity: 1;
 }
 
-.navigation {
+.main-content .navigation {
   position: relative;
+  height: 100%;
   background: #23232e;
-  width: 200px;
+  width: 320px;
   box-shadow: 4px;
   margin-right: 20px;
 }
@@ -137,15 +138,6 @@ main {
 
 .main-content {
   display: flex;
-}
-
-.navigation {
-  position: relative;
-  height: 600px;
-  background: #23232e;
-  width: 320px;
-  box-shadow: 4px;
-  margin-right: 20px;
 }
 
 .images-container {
