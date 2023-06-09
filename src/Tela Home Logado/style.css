@@ -29,8 +29,14 @@ nav{
 
 }
 
+main{
+    background: green;
+    background-size: cover;
+    height: 92vh;
+}
 
-.nav-list{
+.nav-list
+{
     list-style: none;
     display: flex;
     
@@ -42,6 +48,17 @@ nav{
     
 }
 
+.ebook_1 {
+    display: flex;
+    margin-left: 500px;
+
+}
+
+body{
+    min-height: 100vh;
+    background: #ffffff;
+    
+}
 
 .navigation{
     position: relative;
@@ -110,35 +127,3 @@ footer {
   .footer-copy {
     margin-top: 20px;
   }
-  
-  
-  
-  main {
-    display: flex;
-    background: rgb(255, 255, 255);
-    background-size: cover;
-    height: 92vh;
-  }
-  
-  .main-content {
-    display: flex;
-  }
-  
-  .navigation {
-    position: relative;
-    height: 600px;
-    background: #23232e;
-    width: 320px;
-    box-shadow: 4px;
-    margin-right: 20px;
-  }
-  
-  .images-container {
-    display: flex;
-  }
-  
-  .images-container img {
-    max-width: 50%;
-  }
-  
-  
