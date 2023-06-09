@@ -1,0 +1,11 @@
+.calculator {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+input[type="button"] {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+}
