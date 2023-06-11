@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="./homepage_sem_login.css">
+    <title>Investimentos</title>
+    <link rel="stylesheet" href="./investimentos.css">
 
 </head>
 <!--Criando um cabeçalho com menu e logo-->
@@ -31,12 +31,10 @@
     <div class="main-content">
         <div class="navigation">
             <ul>
-                <li><a href="#"><span class="icon"><ion-icon name="cash-outline"></ion-icon></span>Saldo Conta</a></li>
+                <li><a href="./entrada.html"><span class="icon"><ion-icon name="cash-outline"></ion-icon></span>Saldo Conta</a></li>
                 <li><a href="#"><span class="icon"><ion-icon name="person-outline"></ion-icon></span>Usuario</a></li>
-                <li><a href="#"><span class="icon"><ion-icon name="add-circle-outline"></ion-icon></span>Entradas</a>
                 </li>
-                <li><a href="#"><span class="icon"><ion-icon name="add-circle-outline"></ion-icon></span>Saidas</a></li>
-                <li><a href="#"><span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>Investimentos</a>
+                <li><a href="./investimentos.html"><span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>Investimentos</a>
                 </li>
                 <li><a href="#"><span class="icon"><ion-icon name="chatbox-outline"></ion-icon></span>Mensagens</a></li>
                 <li><a href="#"><span class="icon"><ion-icon name="help-circle-outline"></ion-icon></span>Ajuda</a></li>
@@ -51,11 +49,14 @@
     </div>
 
     <div class="principal">
-        <div class="titulo">
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-            <div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="BRL" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
+        <div class="widget-wizard-screener-settings__preview">
+            <div class="tv-external-tools__widget-iframe-wrap js-widget-wizard__example" style="width: 100%; height: 860px; overflow: hidden;">
+                <div class="tradingview-widget-container" style="width: 100%; height: 100%;">
+                    <iframe allowtransparency="true" frameborder="0" src="https://www.tradingview-widget.com/embed-widget/crypto-mkt-screener/?locale=br#%7B%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22defaultColumn%22%3A%22overview%22%2C%22screener_type%22%3A%22crypto_mkt%22%2C%22displayCurrency%22%3A%22USD%22%2C%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22market%22%3A%22crypto%22%2C%22enableScrolling%22%3Atrue%2C%22utm_source%22%3A%22br.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22cryptomktscreener%22%7D" style="box-sizing: border-box; display: block; height: calc(100% - 32px); width: 100%;"></iframe>
+                    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/?utm_source=br.tradingview.com&amp;utm_medium=widget_new&amp;utm_campaign=cryptomktscreener" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                </div>
+            </div>
         </div>
-    </div>
     </div>
 </main>
 <!--Criando um rodapé-->

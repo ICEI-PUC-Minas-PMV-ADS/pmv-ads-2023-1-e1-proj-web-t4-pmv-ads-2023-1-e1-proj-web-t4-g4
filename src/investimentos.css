@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #23232e;
+  height: 8vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 13px;
+}
+
+.botoes {
+  margin-left: 40px;
+}
+
+.login,
+.cadastro {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: #363b47;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.login:hover,
+.cadastro:hover {
+  background: linear-gradient(180deg, #baf123 0%, #89e215 100%);
+  color: #023401;
+  opacity: 1;
+}
+
+.main-content .navigation {
+  position: relative;
+  height: 100%;
+  background: #23232e;
+  width: 320px;
+  box-shadow: 4px;
+  margin-right: 20px;
+}
+
+.navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 50px;
+  text-align: center;
+  line-height: 20px;
+}
+
+footer {
+  background: #23232e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-info {
+  margin-bottom: 20px;
+}
+
+.address,
+.contact {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.footer-copy {
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  background: rgb(255, 255, 255);
+  background-size: cover;
+  height: 92vh;
+}
+
+.main-content {
+  display: flex;
+}
+
+.images-container {
+  display: flex;
+}
+
+.images-container img {
+  max-width: 50%;
+}
+
+.principal {
+  width: 100%;
+  height: 100%;
+  margin-right: 15px;
+}
+
+.tradingview-widget-copyright {
+  font-size: 13px !important;
+  line-height: 32px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  /* @mixin sf-pro-display-font; */
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu,
+    sans-serif !important;
+  color: #9db2bd !important;
+}
+
+.tradingview-widget-copyright .blue-text {
+  color: #2962ff !important;
+}
+
+.tradingview-widget-copyright a {
+  text-decoration: none !important;
+  color: #9db2bd !important;
+}
+
+.tradingview-widget-copyright a:visited {
+  color: #9db2bd !important;
+}
+
+.tradingview-widget-copyright a:hover .blue-text {
+  color: #1e53e5 !important;
+}
+
+.tradingview-widget-copyright a:active .blue-text {
+  color: #1848cc !important;
+}
+
+.tradingview-widget-copyright a:visited .blue-text {
+  color: #2962ff !important;
+}
