@@ -44,6 +44,9 @@ nav {
   margin-left: 40px;
 }
 
+button {
+  margin-left: 40px;
+}
 .login,
 .cadastro {
   text-transform: uppercase;

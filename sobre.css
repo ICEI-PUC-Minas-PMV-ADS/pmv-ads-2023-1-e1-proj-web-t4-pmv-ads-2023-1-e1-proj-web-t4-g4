@@ -28,14 +28,16 @@ nav{
     height: 8vh;
 
 }
-.titulo {
-    align-self: center;
-    margin-left: 25px;
-}    
+
+.sobre {
+    text-align: center;
+    margin-left: 200px;
+}
 
 .content-title {
     text-align: center;
 }
+
 main{
     background: green;
     background-size: cover;
@@ -53,12 +55,6 @@ main{
     letter-spacing: 3px;
     margin-left: 32px;
     
-}
-
-.ebook_1 {
-    display: flex;
-    margin-left: 500px;
-
 }
 
 body{
@@ -117,20 +113,20 @@ footer {
     font-size: 14px;
   }
   
-  .footer-info {
+.footer-info {
     margin-bottom: 20px;
   }
   
-  .address,
-  .contact {
+.address,
+.contact {
     display: inline-block;
     margin-right: 30px;
-  }
+}
   
-  h4 {
+h4 {
     margin-bottom: 10px;
-  }
+}
   
-  .footer-copy {
+.footer-copy {
     margin-top: 20px;
-  }
+}
